@@ -4,6 +4,9 @@ The JS Rich Text Editor from Studio 6.1.x re-implemented as a JSON-defined contr
 Omnis Studio 8.0 included a rewrite of the JS Rich Text Editor control, to base it on [Quill JS](https://github.com/quilljs/quill).
 This repository provides a JSON-defined control which implements the original Rich Text Editor from Studio 6.x (based on [NicEdit](http://nicedit.com)), which can then be used in Studio 8.1 and later.
 
+<p align="center">
+ <img src="screenshot.png" style="marhin-left:auto; margin-right: auto" width="400" />
+</p>
 
 ## Contents
 
