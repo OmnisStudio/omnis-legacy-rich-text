@@ -1,1 +1,74 @@
-{    "name": "net.omnis.legacyrichtext",    "flags": {        "beforeafterevents": false,        "beforeevents": false,        "backcolorandalpha": true,        "noenabled": false,        "transparentbackground": false,        "hasdefaultborder": true,        "hasdisplayformat": false,        "hasdragevents": false    },    "customtabname":  "Custom",    "standardproperties" :  [        "bordercolor",        "borderradius",        "dataname",        "effect",        "font",        "fontsize",        "textcolor"    ],    "properties": {        "plaintextname": {            "id": 1,            "desc": "The name of the variable that automatically receives the plain text equivalent of the data stored in the dataname.This property only needs to be set if you want the plain text value",            "type": "character",            "tab": "general",            "runtimeonly": false,            "extconstant": false,            "intconstant": false,            "constrangestart": "",            "constrangeend": "",            "initial": "Test",            "editreadonly": false        },        "showcontrols": {            "id": 2,            "desc": "If true,the control provides a panel of controls that can be used to edit rich text features",            "type": "boolean",            "tab": "appearance",            "runtimeonly": false,            "extconstant": false,            "intconstant": false,            "constrangestart": "",            "constrangeend": "",            "initial": 1,            "editreadonly": false        },        "autoscroll": {            "id": 3,            "desc": "If true, and the client is not a mobile device, the client automatically displays scrollbar(s) when not all of the content is visible",            "type": "boolean",            "tab": "appearance",            "runtimeonly": false,            "findandreplace": false,            "extconstant": false,            "intconstant": false,            "constrangestart": "",            "constrangeend": "",            "initial": 1,            "editreadonly": false        }    },    "constants": {    },    "events": {    },    "methods": {    },    "html": {        "template": "<div %o %s data-props='%p' data-mvprops='%m'></div>"    }}
+{
+    "name": "net.omnis.legacyrichtext",
+    "flags": {
+        "beforeafterevents": false,
+        "beforeevents": false,
+        "backcolorandalpha": true,
+        "noenabled": false,
+        "transparentbackground": false,
+        "hasdefaultborder": true,
+        "hasdisplayformat": false,
+        "hasdragevents": false
+    },
+    "customtabname":  "Custom",
+    "standardproperties" :  [
+        "bordercolor",
+        "borderradius",
+        "dataname",
+        "effect",
+        "font",
+        "fontsize",
+        "textcolor"
+    ],
+    "properties": {
+        "plaintextname": {
+            "id": 1,
+            "desc": "The name of the variable that automatically receives the plain text equivalent of the data stored in the dataname.This property only needs to be set if you want the plain text value",
+            "type": "character",
+            "tab": "general",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": "Test",
+            "editreadonly": false
+        },
+        "showcontrols": {
+            "id": 2,
+            "desc": "If true,the control provides a panel of controls that can be used to edit rich text features",
+            "type": "boolean",
+            "tab": "appearance",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": 1,
+            "editreadonly": false
+        },
+        "autoscroll": {
+            "id": 3,
+            "desc": "If true, and the client is not a mobile device, the client automatically displays scrollbar(s) when not all of the content is visible",
+            "type": "boolean",
+            "tab": "appearance",
+            "runtimeonly": false,
+            "findandreplace": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": 1,
+            "editreadonly": false
+        }
+    },
+    "constants": {
+    },
+    "events": {
+    },
+    "methods": {
+    },
+    "html": {
+        "template": "<div %o %s data-props='%p' data-mvprops='%m'></div>"
+    }
+}
