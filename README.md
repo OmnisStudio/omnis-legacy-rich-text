@@ -20,7 +20,7 @@ The Javascript file used by Omnis Studio to create the client implementation of 
 
 
 ### example/JSRICHTEXT_LEGACY
-A folder containing an Omnis Studio library exported as JSON to demonstrate the Omnis Signature component.
+A folder containing an Omnis Studio library exported as JSON to demonstrate the Rich Text Editor component.
 
 ## Installation
 1. Ensure Omnis Studio is closed.
@@ -33,5 +33,5 @@ A folder containing an Omnis Studio library exported as JSON to demonstrate the 
 5. Start Omnis Studio.
 6. The control should now be accessible from the Component Store's 'JSON Components' tab for JS Remote Form classes.
 **To open the example library:**
-7. With the libraries node selected in the Studio Browser, press the New Lib from JSON hyperlink, set the JSON Tree Path to the **example/JSRICHTEXT_lEGACY** folder (containing demo library exported as JSON) and select a location for your new library.
+7. With the libraries node selected in the Studio Browser, press the New Lib from JSON hyperlink, set the JSON Tree Path to the **example/JSRICHTEXT_LEGACY** folder (containing demo library exported as JSON) and select a location for your new library.
 8.	Press Import and the demo library should be ready to use.
