@@ -957,7 +957,7 @@ var nicEditor = bkClass.extend({
     selectCheck: function (e, t) {
         var found = false;
         do {
-            if (t.className && t.className.indexOf('nicEdit') != -1) {
+            if (t.className && typeof t.className === "string" && t.className.indexOf('nicEdit') != -1) {
                 return false;
             }
         } while (t = t.parentNode);
@@ -1394,7 +1394,7 @@ var nicEditorButton = bkClass.extend({
                 this.activate();
                 return true;
             }
-        } while (elm = elm.parentNode && elm.className != "nicEdit");
+        } while (elm = elm.parentNode && !jOmnis.hasClass(elm, "nicEdit"));
         elm = $BK(e);
         while (elm.nodeType == 3) {
             elm = $BK(elm.parentNode);
